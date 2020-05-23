@@ -1,0 +1,19 @@
+<html>
+<iframe src="https://www.unc0ver.dev/" title="Eta wen" id="refresh"></iframe> 
+<style type="text/css">
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+    html {
+        background-color: black;
+    }
+</style>
+<script>
+refresh();
+
+function refresh(){
+    document.getElementById('refresh').src += '';
+setTimeout(refresh, 5000);
+}
+</script>
